@@ -8,9 +8,9 @@ import IconButton from "@material-ui/core/IconButton";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LiveTvIcon from "@material-ui/icons/LiveTv";
 
-import one from "../utils/hollywood.jpg";
-import two from "../utils/hollywood2.jpg";
-import three from "../utils/korea.jpg";
+import potluck from "../utils/potluck.jpg";
+import pokemon from "../utils/pokemon.jpg";
+import plants from "../utils/plants.jpg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -43,7 +43,7 @@ export default function CreationCard() {
   return (
     <div className='creation__card'>
       <Card className={classes.root}>
-        <CardMedia className={classes.media} image={one} />
+        <CardMedia className={classes.media} image={potluck} />
         <div className='creation__IconButton'>
           <IconButton
             className={classes.button}
@@ -60,7 +60,7 @@ export default function CreationCard() {
         </div>
       </Card>
       <Card className={classes.root}>
-        <CardMedia className={classes.media} image={two} />
+        <CardMedia className={classes.media} image={pokemon} />
         <div className='creation__IconButton'>
           <IconButton
             className={classes.button}
@@ -77,7 +77,7 @@ export default function CreationCard() {
         </div>
       </Card>
       <Card className={classes.root}>
-        <CardMedia className={classes.media} image={three} />
+        <CardMedia className={classes.media} image={plants} />
         <div className='creation__IconButton'>
           <IconButton
             className={classes.button}
