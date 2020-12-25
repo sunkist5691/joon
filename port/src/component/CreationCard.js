@@ -21,9 +21,10 @@ const useStyles = makeStyles((theme) => ({
     background: "white",
     borderRadius: "5px",
     padding: 0,
+    marginTop: "3%",
   },
   media: {
-    height: 0,
+    height: "48vh",
     paddingTop: "56.25%", // 16:9
   },
   button: {
