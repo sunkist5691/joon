@@ -9,6 +9,7 @@
 }
 
 .self__intro {
+  margin-top: 4%;
   height: 13vh;
   display: flex;
   justify-content: center;

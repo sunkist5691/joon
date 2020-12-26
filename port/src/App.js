@@ -25,12 +25,12 @@ const App = () => {
       <div className='main'>
         <ThemeProvider theme={theme}>
           <Paper>
-            <div className='switch'>
+            {/* <div className='switch'>
               <Switch
                 checked={darkMode}
                 onChange={() => setDarkMode(!darkMode)}
               />
-            </div>
+            </div> */}
             <section className='self__intro'>
               <p className='typewriter'>
                 <b>I'm a </b>{" "}
