@@ -59,14 +59,14 @@ const App = () => {
             <section id='contact' className='contact'>
               <IconButton href='https://www.linkedin.com/in/joon5691/'>
                 <LinkedInIcon
-                  className='icon__button'
+                  className='contact__button'
                   color='primary'
                   style={{ fontSize: "50px", transition: "all 0.3s" }}
                 />
               </IconButton>
               <IconButton href='https://github.com/sunkist5691'>
                 <GitHubIcon
-                  className='icon__button'
+                  className='contact__button'
                   style={{
                     fontSize: "43px",
                     transition: "all 0.3s",
@@ -76,7 +76,7 @@ const App = () => {
               </IconButton>
               <IconButton href='https://www.instagram.com/jkincali/'>
                 <InstagramIcon
-                  className='icon__button'
+                  className='contact__button'
                   style={{
                     fontSize: "50px",
                     transition: "all 0.3s",

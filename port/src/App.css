@@ -9,7 +9,7 @@
 }
 
 .self__intro {
-  height: 20vh;
+  height: 13vh;
   display: flex;
   justify-content: center;
 }
@@ -19,37 +19,77 @@
 }
 
 .creation__card {
-  height: 62vh;
+  height: 75vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+/* hovering effect STARTS */
+.description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 86.5%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* .description__blur {
+  backdrop-filter: blur(2px);
+} */
+
+.description > * {
+  transform: translateY(30px);
+  transition: all 0.3s;
+}
+
+.description:hover {
+  opacity: 1;
+}
+
+.description:hover > * {
+  transform: translateY(0px);
+}
+
+.description h1 {
+  font-size: 4rem;
+}
+.description p {
+  font-size: 1.6rem;
+  margin-top: 1.4rem;
+}
+/* hovering effect ENDS */
 
 .creation__IconButton {
+  background: white;
   display: flex;
   justify-content: space-around;
 }
 
 .contact {
-  margin-top: 48px;
+  margin-top: 150px;
   display: flex;
   justify-content: center;
 }
 
-.icon__button {
-}
-
-.icon__button:hover {
+.contact__button:hover {
   transition: all 0.3s;
   transform: scale(1.2);
 }
 
-@media only screen and (max-width: 1220px) {
+@media only screen and (max-width: 1546px) {
   .creation__card {
-    height: 120vh;
+    height: 143vh;
   }
 }
-@media only screen and (max-width: 815px) {
+@media only screen and (max-width: 1014px) {
   .self__intro {
     height: 12vh;
   }
@@ -57,6 +97,6 @@
     font-size: 6rem;
   }
   .creation__card {
-    height: 180vh;
+    height: 215vh;
   }
 }

@@ -5,8 +5,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardMedia from "@material-ui/core/CardMedia";
 import IconButton from "@material-ui/core/IconButton";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import LiveTvIcon from "@material-ui/icons/LiveTv";
+import CodeIcon from "@material-ui/icons/Code";
+import LaunchRoundedIcon from "@material-ui/icons/LaunchRounded";
 
 import potluck from "../utils/potluck.jpg";
 import pokemon from "../utils/pokemon.jpg";
@@ -17,19 +17,19 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     boxShadow:
       "0 2.8px 2.2px rgba(0, 0, 0, 0.034),0 6.7px 5.3px rgba(0, 0, 0, 0.048),0 12.5px 10px rgba(0, 0, 0, 0.06),0 22.3px 17.9px rgba(0, 0, 0, 0.072),0 41.8px 33.4px rgba(0, 0, 0, 0.086),0 100px 80px rgba(0, 0, 0, 0.12)",
-    maxWidth: 400,
-    background: "white",
+    maxWidth: 480,
     borderRadius: "5px",
-    padding: 0,
-    marginTop: "3%",
+    margin: "5% 1% 0 1%",
     transition: "all 0.3s",
 
     "&:hover": {
       transform: "scale(1.04)",
     },
+    /* experiment */
+    position: "relative",
   },
   media: {
-    height: "48vh",
+    height: "61vh",
     paddingTop: "56.25%", // 16:9
   },
   button: {
@@ -45,6 +45,10 @@ const useStyles = makeStyles((theme) => ({
     width: 35,
     height: 35,
   },
+  iconTwo: {
+    width: 45,
+    height: 45,
+  },
 }));
 
 export default function CreationCard() {
@@ -54,52 +58,64 @@ export default function CreationCard() {
     <div className='creation__card'>
       <Card className={classes.root}>
         <CardMedia className={classes.media} image={potluck} />
+        <div className='description description__blur'>
+          <h1>Potluck</h1>
+          <p>Bring your favorite food to the party!</p>
+        </div>
         <div className='creation__IconButton'>
           <IconButton
             className={classes.button}
             href='http://potlock.netlify.app'
           >
-            <LiveTvIcon className={classes.icon} />
+            <LaunchRoundedIcon className={classes.icon} />
           </IconButton>
           <IconButton
             className={classes.button}
             href='https://github.com/BW-Potluck-Planner-TT-50/frontend'
           >
-            <GitHubIcon className={classes.icon} />
+            <CodeIcon className={classes.iconTwo} />
           </IconButton>
         </div>
       </Card>
       <Card className={classes.root}>
         <CardMedia className={classes.media} image={pokemon} />
+        <div className='description description__blur'>
+          <h1>Pokemon</h1>
+          <p>Search your favorite pokemon cards!</p>
+        </div>
         <div className='creation__IconButton'>
           <IconButton
             className={classes.button}
             href='https://pokemon-world.vercel.app/'
           >
-            <LiveTvIcon className={classes.icon} />
+            <LaunchRoundedIcon className={classes.icon} />
           </IconButton>
           <IconButton
             className={classes.button}
             href='https://github.com/sunkist5691/Pokemon-Card-App'
           >
-            <GitHubIcon className={classes.icon} />
+            <CodeIcon className={classes.iconTwo} />
           </IconButton>
         </div>
       </Card>
       <Card className={classes.root}>
         <CardMedia className={classes.media} image={plants} />
+        <div className='description description__blur'>
+          <h1>Water My Plants</h1>
+          <p>Don't forget your lovely plants to get water!</p>
+        </div>
         <div className='creation__IconButton'>
           <IconButton
             className={classes.button}
             href='https://determined-kare-dec921.netlify.app/'
           >
-            <LiveTvIcon className={classes.icon} />
+            <LaunchRoundedIcon className={classes.icon} />
           </IconButton>
           <IconButton
             className={classes.button}
             href='https://github.com/TT50-Water-My-Plants/backend'
           >
-            <GitHubIcon className={classes.icon} />
+            <CodeIcon className={classes.iconTwo} />
           </IconButton>
         </div>
       </Card>
