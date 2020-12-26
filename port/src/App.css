@@ -36,6 +36,14 @@
   justify-content: center;
 }
 
+.icon__button {
+}
+
+.icon__button:hover {
+  transition: all 0.3s;
+  transform: scale(1.2);
+}
+
 @media only screen and (max-width: 1220px) {
   .creation__card {
     height: 120vh;

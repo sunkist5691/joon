@@ -22,14 +22,24 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: "5px",
     padding: 0,
     marginTop: "3%",
+    transition: "all 0.3s",
+
+    "&:hover": {
+      transform: "scale(1.04)",
+    },
   },
   media: {
     height: "48vh",
     paddingTop: "56.25%", // 16:9
   },
   button: {
+    marginTop: 10,
     marginBottom: 10,
     color: "black",
+    "&:hover": {
+      transition: "all 0.3s ease-out",
+      transform: "scale(1.2)",
+    },
   },
   icon: {
     width: 35,
