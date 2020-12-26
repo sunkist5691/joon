@@ -36,8 +36,8 @@ const useStyles = makeStyles((theme) => ({
     marginTop: 10,
     marginBottom: 10,
     color: "black",
+    transition: "all 0.3s",
     "&:hover": {
-      transition: "all 0.3s ease-out",
       transform: "scale(1.2)",
     },
   },
