@@ -2,14 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 
 /* Dark Mode Button */
-.switch {
+/* .switch {
   height: 5vh;
   display: flex;
   justify-content: flex-end;
-}
+} */
 
 .self__intro {
-  margin-top: 4%;
+  margin-top: 1%;
   height: 13vh;
   display: flex;
   justify-content: center;
