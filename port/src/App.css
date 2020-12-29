@@ -10,7 +10,7 @@
 
 .self__intro {
   margin-top: 1%;
-  height: 13vh;
+  min-height: 100px;
   display: flex;
   justify-content: center;
 }
@@ -20,7 +20,7 @@
 }
 
 .creation__card {
-  height: 75vh;
+  min-height: 70vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -31,7 +31,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 86.5%;
+  height: 101%;
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
   display: flex;
@@ -75,7 +75,7 @@
 }
 
 .contact {
-  margin-top: 150px;
+  margin-top: 30vh;
   display: flex;
   justify-content: center;
 }
@@ -85,19 +85,8 @@
   transform: scale(1.2);
 }
 
-@media only screen and (max-width: 1546px) {
-  .creation__card {
-    height: 143vh;
-  }
-}
 @media only screen and (max-width: 1014px) {
-  .self__intro {
-    height: 12vh;
-  }
   .typewriter {
     font-size: 6rem;
-  }
-  .creation__card {
-    height: 215vh;
   }
 }
