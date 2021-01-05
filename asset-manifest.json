@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/joon/static/css/main.8bb1e635.chunk.css",
+    "main.css": "/joon/static/css/main.d8c2dcf5.chunk.css",
     "main.js": "/joon/static/js/main.13440957.chunk.js",
     "main.js.map": "/joon/static/js/main.13440957.chunk.js.map",
     "runtime-main.js": "/joon/static/js/runtime-main.b4ca149d.js",
@@ -10,7 +10,7 @@
     "static/js/3.06cb55c9.chunk.js": "/joon/static/js/3.06cb55c9.chunk.js",
     "static/js/3.06cb55c9.chunk.js.map": "/joon/static/js/3.06cb55c9.chunk.js.map",
     "index.html": "/joon/index.html",
-    "static/css/main.8bb1e635.chunk.css.map": "/joon/static/css/main.8bb1e635.chunk.css.map",
+    "static/css/main.d8c2dcf5.chunk.css.map": "/joon/static/css/main.d8c2dcf5.chunk.css.map",
     "static/js/2.b72ada73.chunk.js.LICENSE.txt": "/joon/static/js/2.b72ada73.chunk.js.LICENSE.txt",
     "static/media/plants.57c3b8d9.jpg": "/joon/static/media/plants.57c3b8d9.jpg",
     "static/media/pokemon.48a28ce0.jpg": "/joon/static/media/pokemon.48a28ce0.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.b4ca149d.js",
     "static/js/2.b72ada73.chunk.js",
-    "static/css/main.8bb1e635.chunk.css",
+    "static/css/main.d8c2dcf5.chunk.css",
     "static/js/main.13440957.chunk.js"
   ]
 }
