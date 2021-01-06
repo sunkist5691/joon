@@ -5,9 +5,10 @@ import CreationCard from "./component/CreationCard";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import IconButton from "@material-ui/core/IconButton";
+import { skills } from "./skills/skill";
 
 import InstagramIcon from "@material-ui/icons/Instagram";
-import { Paper, Switch } from "@material-ui/core";
+import { Paper } from "@material-ui/core";
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 
 const App = () => {
@@ -33,21 +34,7 @@ const App = () => {
             </div> */}
             <section className='self__intro'>
               <p className='typewriter'>
-                <b>I'm a </b>{" "}
-                <Typical
-                  loop={Infinity}
-                  wrapper='b'
-                  steps={[
-                    "Minimalist",
-                    2000,
-                    "Musician",
-                    2000,
-                    "Developer",
-                    2000,
-                    "Engineer",
-                    2000,
-                  ]}
-                />
+                <Typical wrapper='b' steps={["Joon's creations"]} />
               </p>
             </section>
 
@@ -56,6 +43,11 @@ const App = () => {
                 <CreationCard />
               </div>
             </section>
+            <div className='skills'>
+              {skills.map((eachSkill) => (
+                <img src={eachSkill} alt='skill categories' />
+              ))}
+            </div>
             <section id='contact' className='contact'>
               <IconButton href='https://www.linkedin.com/in/joon5691/'>
                 <LinkedInIcon

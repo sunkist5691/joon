@@ -1,5 +1,4 @@
 import React from "react";
-import "./CreationCard.css";
 import { makeStyles } from "@material-ui/core/styles";
 
 import Card from "@material-ui/core/Card";
@@ -60,7 +59,11 @@ export default function CreationCard() {
         <CardMedia className={classes.media} image={potluck} />
         <div className='description description__blur'>
           <h1>Potluck</h1>
-          <p>Bring your favorite food to the party!</p>
+          <h2>Bring your favorite food to the party!</h2>
+          <p>
+            Event host create potluck event and send an invite code through
+            email from people who like to attend with certain food
+          </p>
         </div>
         <div className='creation__IconButton'>
           <IconButton
@@ -81,7 +84,11 @@ export default function CreationCard() {
         <CardMedia className={classes.media} image={pokemon} />
         <div className='description description__blur'>
           <h1>Pokemon</h1>
-          <p>Search your favorite pokemon cards!</p>
+          <h2>Search your favorite pokemon cards!</h2>
+          <p>
+            Write any name of pokemon on search bar to see what type of pokemon
+            cards you can retrieve
+          </p>
         </div>
         <div className='creation__IconButton'>
           <IconButton
@@ -102,7 +109,11 @@ export default function CreationCard() {
         <CardMedia className={classes.media} image={plants} />
         <div className='description description__blur'>
           <h1>Water My Plants</h1>
-          <p>Don't forget your lovely plants to get water!</p>
+          <h2>Don't forget your lovely plants to get water!</h2>
+          <p>
+            Create your own plant information in your dashboard and set schedule
+            when to give a water to your plant
+          </p>
         </div>
         <div className='creation__IconButton'>
           <IconButton
