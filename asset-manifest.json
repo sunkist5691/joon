@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/joon/static/css/main.465daee1.chunk.css",
-    "main.js": "/joon/static/js/main.6fd0d349.chunk.js",
-    "main.js.map": "/joon/static/js/main.6fd0d349.chunk.js.map",
+    "main.css": "/joon/static/css/main.a17c58f1.chunk.css",
+    "main.js": "/joon/static/js/main.f23320fd.chunk.js",
+    "main.js.map": "/joon/static/js/main.f23320fd.chunk.js.map",
     "runtime-main.js": "/joon/static/js/runtime-main.b4ca149d.js",
     "runtime-main.js.map": "/joon/static/js/runtime-main.b4ca149d.js.map",
     "static/js/2.50a8a648.chunk.js": "/joon/static/js/2.50a8a648.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.06cb55c9.chunk.js": "/joon/static/js/3.06cb55c9.chunk.js",
     "static/js/3.06cb55c9.chunk.js.map": "/joon/static/js/3.06cb55c9.chunk.js.map",
     "index.html": "/joon/index.html",
-    "static/css/main.465daee1.chunk.css.map": "/joon/static/css/main.465daee1.chunk.css.map",
+    "static/css/main.a17c58f1.chunk.css.map": "/joon/static/css/main.a17c58f1.chunk.css.map",
     "static/js/2.50a8a648.chunk.js.LICENSE.txt": "/joon/static/js/2.50a8a648.chunk.js.LICENSE.txt",
     "static/media/c.2f52df38.svg": "/joon/static/media/c.2f52df38.svg",
     "static/media/chai.ee9f70b2.svg": "/joon/static/media/chai.ee9f70b2.svg",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.b4ca149d.js",
     "static/js/2.50a8a648.chunk.js",
-    "static/css/main.465daee1.chunk.css",
-    "static/js/main.6fd0d349.chunk.js"
+    "static/css/main.a17c58f1.chunk.css",
+    "static/js/main.f23320fd.chunk.js"
   ]
 }
