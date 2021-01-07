@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
     position: "relative",
   },
   media: {
-    minHeight: "40vh",
+    minHeight: "51vh",
     paddingTop: "56.25%", // 16:9
   },
   button: {
