@@ -19,25 +19,18 @@ import reduxjs from "./redux.svg";
 import sqlite from "./sqlite.svg";
 import jest from "./jest.svg";
 
-export const skills = [
-  reactjs,
-  reactrouter,
-  jest,
-  python,
-  postman,
-  reduxjs,
-  sqlite,
-  nodemon,
+export const frontSkills = [
   html,
-  javascript,
-  material,
-  mongodb,
-  nodejs,
-  clang,
-  chai,
   css,
-  cypress,
-  express,
+  javascript,
+  reactjs,
+  reduxjs,
+  reactrouter,
+  postman,
+  material,
   firebase,
-  heroku,
 ];
+
+export const backSkills = [express, nodejs, mongodb, sqlite, heroku];
+
+export const otherSkills = [python, clang];

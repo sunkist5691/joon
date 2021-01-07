@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
     position: "relative",
   },
   media: {
-    minHeight: "61vh",
+    minHeight: "40vh",
     paddingTop: "56.25%", // 16:9
   },
   button: {
@@ -62,7 +62,7 @@ export default function CreationCard() {
           <h2>Bring your favorite food to the party!</h2>
           <p>
             Event host create potluck event and send an invite code through
-            email from people who like to attend with certain food
+            email to people who like to attend and bring a certain food
           </p>
         </div>
         <div className='creation__IconButton'>
@@ -86,8 +86,8 @@ export default function CreationCard() {
           <h1>Pokemon</h1>
           <h2>Search your favorite pokemon cards!</h2>
           <p>
-            Write any name of pokemon on search bar to see what type of pokemon
-            cards you can retrieve
+            Write any name of pokemon on the search bar to see what type of
+            pokemon cards you can retrieve
           </p>
         </div>
         <div className='creation__IconButton'>
@@ -111,8 +111,8 @@ export default function CreationCard() {
           <h1>Water My Plants</h1>
           <h2>Don't forget your lovely plants to get water!</h2>
           <p>
-            Create your own plant information in your dashboard and set schedule
-            when to give a water to your plant
+            Create your own plant information in your dashboard and set a
+            schedule when to give water to your plant
           </p>
         </div>
         <div className='creation__IconButton'>
