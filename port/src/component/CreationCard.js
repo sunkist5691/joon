@@ -68,7 +68,7 @@ export default function CreationCard() {
         <div className='creation__IconButton'>
           <IconButton
             className={classes.button}
-            href='https://potluckapp.netlify.app'
+            href='https://potluckjoon.netlify.app'
           >
             <LaunchRoundedIcon className={classes.icon} />
           </IconButton>
