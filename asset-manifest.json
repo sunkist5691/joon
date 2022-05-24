@@ -1,31 +1,28 @@
 {
   "files": {
     "main.css": "/joon/static/css/main.a17c58f1.chunk.css",
-    "main.js": "/joon/static/js/main.e286a03c.chunk.js",
-    "main.js.map": "/joon/static/js/main.e286a03c.chunk.js.map",
+    "main.js": "/joon/static/js/main.576571c4.chunk.js",
+    "main.js.map": "/joon/static/js/main.576571c4.chunk.js.map",
     "runtime-main.js": "/joon/static/js/runtime-main.b4ca149d.js",
     "runtime-main.js.map": "/joon/static/js/runtime-main.b4ca149d.js.map",
-    "static/js/2.f7a891b0.chunk.js": "/joon/static/js/2.f7a891b0.chunk.js",
-    "static/js/2.f7a891b0.chunk.js.map": "/joon/static/js/2.f7a891b0.chunk.js.map",
+    "static/js/2.4a941d68.chunk.js": "/joon/static/js/2.4a941d68.chunk.js",
+    "static/js/2.4a941d68.chunk.js.map": "/joon/static/js/2.4a941d68.chunk.js.map",
     "static/js/3.06cb55c9.chunk.js": "/joon/static/js/3.06cb55c9.chunk.js",
     "static/js/3.06cb55c9.chunk.js.map": "/joon/static/js/3.06cb55c9.chunk.js.map",
     "index.html": "/joon/index.html",
     "static/css/main.a17c58f1.chunk.css.map": "/joon/static/css/main.a17c58f1.chunk.css.map",
-    "static/js/2.f7a891b0.chunk.js.LICENSE.txt": "/joon/static/js/2.f7a891b0.chunk.js.LICENSE.txt",
+    "static/js/2.4a941d68.chunk.js.LICENSE.txt": "/joon/static/js/2.4a941d68.chunk.js.LICENSE.txt",
     "static/media/c.2f52df38.svg": "/joon/static/media/c.2f52df38.svg",
-    "static/media/chai.ee9f70b2.svg": "/joon/static/media/chai.ee9f70b2.svg",
     "static/media/css-3.e7a9de36.svg": "/joon/static/media/css-3.e7a9de36.svg",
-    "static/media/cypress.071c7e70.svg": "/joon/static/media/cypress.071c7e70.svg",
+    "static/media/ecommerce.94aab5ed.jpg": "/joon/static/media/ecommerce.94aab5ed.jpg",
     "static/media/express.7e85c513.svg": "/joon/static/media/express.7e85c513.svg",
     "static/media/firebase.ea1a2d66.svg": "/joon/static/media/firebase.ea1a2d66.svg",
     "static/media/heroku.f925ac0e.svg": "/joon/static/media/heroku.f925ac0e.svg",
     "static/media/html-5.e7638e36.svg": "/joon/static/media/html-5.e7638e36.svg",
     "static/media/javascript.fd46ca41.svg": "/joon/static/media/javascript.fd46ca41.svg",
-    "static/media/jest.bdea2af6.svg": "/joon/static/media/jest.bdea2af6.svg",
     "static/media/material-ui.741a52f5.svg": "/joon/static/media/material-ui.741a52f5.svg",
     "static/media/mongodb.153b7b44.svg": "/joon/static/media/mongodb.153b7b44.svg",
     "static/media/nodejs.5a3a9ca2.svg": "/joon/static/media/nodejs.5a3a9ca2.svg",
-    "static/media/nodemon.322f63ab.svg": "/joon/static/media/nodemon.322f63ab.svg",
     "static/media/plants.57c3b8d9.jpg": "/joon/static/media/plants.57c3b8d9.jpg",
     "static/media/pokemon.48a28ce0.jpg": "/joon/static/media/pokemon.48a28ce0.jpg",
     "static/media/postman.930ce66d.svg": "/joon/static/media/postman.930ce66d.svg",
@@ -38,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b4ca149d.js",
-    "static/js/2.f7a891b0.chunk.js",
+    "static/js/2.4a941d68.chunk.js",
     "static/css/main.a17c58f1.chunk.css",
-    "static/js/main.e286a03c.chunk.js"
+    "static/js/main.576571c4.chunk.js"
   ]
 }
